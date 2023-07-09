@@ -1,20 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/08 20:21:34 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/09 16:06:03 by fcamoin          ###   ########.fr       */
+/*   Created: 2023/07/09 15:33:44 by fcamoin           #+#    #+#             */
+/*   Updated: 2023/07/09 16:05:32 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include<stdio.h>
 #include<unistd.h>
+#include<stdio.h>
 
-void	ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_strlen(char *str)
 {
-	*div = a / b;
-	*mod = a % b;
+	int	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }

@@ -6,7 +6,7 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 15:41:12 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/08 16:05:28 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/09 15:43:53 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,13 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
+
+/*int     main ()
+{
+        int A = 10;
+        int B = 5;
+        ft_swap(&A, &B);
+        printf("A = %d\n", A);
+        printf("B = %d\n", B);
+        return (0);
+}*/

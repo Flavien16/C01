@@ -1,31 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_sort_int_tab.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/09 15:33:44 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 09:25:28 by fcamoin          ###   ########.fr       */
+/*   Created: 2023/07/11 10:07:12 by fcamoin           #+#    #+#             */
+/*   Updated: 2023/07/11 10:11:12 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
 
-int	ft_strlen(char *str)
+void ft_sort_int_tab(int *tab, int size)
 {
-	int	i;
 
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
-
-/*int	main(void)
-{
-	char	a[] = "Test";
-
-	ft_strlen(a);
-	printf("%d", ft_strlen(a));
-	return (0);
-}*/

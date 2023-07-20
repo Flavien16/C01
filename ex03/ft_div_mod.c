@@ -6,12 +6,12 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 20:21:34 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 13:38:14 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:30:43 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {

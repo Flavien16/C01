@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/11 10:07:12 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 13:45:04 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:32:24 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 void	ft_sort_int_tab(int *tab, int size)
 {

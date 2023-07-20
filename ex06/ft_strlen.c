@@ -6,10 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/09 15:33:44 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 13:39:44 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:31:34 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
+
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/11 09:58:32 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 13:42:14 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:31:51 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {

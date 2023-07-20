@@ -6,11 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 14:47:53 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/11 13:35:54 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:30:08 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
+#include <stdio.h>
 
 void	ft_ultimate_ft(int	*********nbr)
 {

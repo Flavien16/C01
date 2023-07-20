@@ -6,12 +6,11 @@
 /*   By: fcamoin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 20:53:58 by fcamoin           #+#    #+#             */
-/*   Updated: 2023/07/09 15:31:04 by fcamoin          ###   ########.fr       */
+/*   Updated: 2023/07/20 11:31:12 by fcamoin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<unistd.h>
+#include <unistd.h>
 
 void	ft_putstr(char *str)
 {
